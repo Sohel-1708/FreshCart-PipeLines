@@ -1,0 +1,37 @@
+[
+  {
+    "bronze": 8,
+    "clean": 6,
+    "quarantine": 2,
+    "dedup": 4,
+    "revenue_inr": "7785.00",
+    "points": 126,
+    "rejected_percent": 25.0
+  },
+  [
+    {
+      "order_id": "ORD-1001",
+      "tier": "Silver",
+      "amount_inr": "1250.00",
+      "loyalty_points": 12
+    },
+    {
+      "order_id": "ORD-1002",
+      "tier": "Silver",
+      "amount_inr": "3536.00",
+      "loyalty_points": 35
+    },
+    {
+      "order_id": "ORD-1003",
+      "tier": "Platinum",
+      "amount_inr": "2100.00",
+      "loyalty_points": 63
+    },
+    {
+      "order_id": "ORD-1005",
+      "tier": "Gold",
+      "amount_inr": "899.00",
+      "loyalty_points": 16
+    }
+  ]
+]

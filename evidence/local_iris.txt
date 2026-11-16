@@ -1,0 +1,33 @@
+Rows loaded: 150
+Train rows: 120 | Test rows: 30
+max_depth = 1 | Test accuracy = 0.633
+max_depth = 2 | Test accuracy = 0.967
+Saved 30 predictions to iris_predictions.csv
+max_depth = 3 | Test accuracy = 1.0
+Saved 30 predictions to iris_predictions.csv
+Confusion matrix:
+predicted   0  1   2
+actual              
+0          10  0   0
+1           0  9   0
+2           0  0  11
+max_depth = 4 | Test accuracy = 1.0
+Saved 30 predictions to iris_predictions.csv
+max_depth = 5 | Test accuracy = 1.0
+Saved 30 predictions to iris_predictions.csv
+   max_depth  accuracy  gate_passed  csv_created
+0          1  0.633333        False        False
+1          2  0.966667         True         True
+2          3  1.000000         True         True
+3          4  1.000000         True         True
+4          5  1.000000         True         True
+predicted   0  1   2
+actual              
+0          10  0   0
+1           0  9   0
+2           0  0  11
+      metric  value
+0   accuracy    1.0
+1  precision    1.0
+2     recall    1.0
+3   f1_score    1.0
