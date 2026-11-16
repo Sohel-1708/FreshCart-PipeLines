@@ -1,0 +1,12 @@
+mage-ai
+scikit-learn
+pandas
+pytest
+joblib
+pika
+snowflake-connector-python
+python-dotenv
+nbformat
+nbclient
+ipykernel
+PyYAML
