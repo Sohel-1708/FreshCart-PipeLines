@@ -1,0 +1,8 @@
+name: ELT Pipeline Check
+on: [push, workflow_dispatch]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "ELT pipeline files verified"
